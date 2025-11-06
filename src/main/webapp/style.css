@@ -52,9 +52,9 @@ div h1 {
 
 #formStyle {
     font-family: sans-serif;
-    font-size: 25px; 
-    color: #000000; 
-    margin-top: 50px; 
+    font-size: 25px;
+    color: #000000;
+    margin-top: 50px;
     margin-left: 200px;
 }
 
@@ -130,7 +130,8 @@ td, th {
 .textSvg2,
 .textSvgM,
 .textSvgM2,
-.textSvgAxes {
+.textSvgAxes
+{
     user-select: none;
 }
 
