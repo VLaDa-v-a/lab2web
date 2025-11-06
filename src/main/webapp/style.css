@@ -1,0 +1,139 @@
+body {
+    background-color:#000000;
+}
+
+body {
+    background-color:#EDF2EF;
+}
+
+input[type="number"], #xSelect, #rSelect {
+    background-color: #B4D2E7;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(169, 169, 169, 0.5);
+    font-size: 25px;
+}
+
+#inputY {
+    width: 150px;
+}
+
+#inputY::placeholder {
+    text-align: center;
+}
+
+div h1 {
+    color: #00008B;
+}
+
+.header {
+    font-family: cursive;
+    margin-top: 10px;
+    background-color: #94C5CC;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+}
+
+#graphic {
+    margin-top: 3%;
+}
+
+#graphicInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#formStyle {
+    font-family: sans-serif;
+    font-size: 25px; 
+    color: #000000; 
+    margin-top: 50px; 
+    margin-left: 200px;
+}
+
+#clearFormStyle {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+#resultsTable {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #94C5CC;
+    word-break: break-word;
+}
+
+td, th {
+    border: 2px solid #000000;
+    min-width: 110px;
+    text-align: center;
+    padding: 15px 18px;
+}
+
+#textResults {
+    font-family: sans-serif;
+}
+
+#buttonSend,
+#buttonClearHistory {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    font-size: 25px;
+}
+
+#buttonSend {
+    background-color: rgba(169, 169, 169, 0.5);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#buttonSend:hover {
+    background-color: rgba(169, 169, 169, 1.0);
+}
+
+#buttonClearHistory {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#buttonClearHistory:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#coordinates,
+#rValue {
+    color: #A1A6B4;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.textSvg,
+.textSvg2,
+.textSvgM,
+.textSvgM2,
+.textSvgAxes {
+    user-select: none;
+}
+
+#name::before {
+    content: "ФИО: ";
+}
